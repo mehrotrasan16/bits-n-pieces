@@ -9,7 +9,7 @@ A collection of scripts to problems that I come across.
   [Codility](https://app.codility.com/programmers/).
  
   Will try to :
-  [] Link to the problem/question and 
-  [] Document the code in a way that's readable for others.
+  [ ] Link to the problem/question and 
+  [ ] Document the code in a way that's readable for others.
 
 P.S. separate repo for miniprojects, ideas, and hackathon projects.
