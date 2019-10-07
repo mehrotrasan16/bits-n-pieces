@@ -6,7 +6,7 @@ A collection of scripts to problems that I come across.
 - Assorted problems on:
   [Hackerrank](www.hackerrank.com),
   [Hackerearth](www.hackerearth.com) or,
-  [Codility](https://app.codility.com/programmers/).
+  [Codility](https://app.codility.com/programmers/), and from [Interviewqs](https://www.interviewqs.com/).
  
   Will try to :
   - [ ] Link to the problem/question and 
