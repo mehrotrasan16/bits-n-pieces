@@ -14,7 +14,7 @@ public class Solution {
     public static boolean flag = true;
 
     static{
-        if((B < 0) || (H < 0)){
+        if((B <= 0) || (H <= 0)){
             System.out.print("java.lang.Exception: Breadth and height must be positive");
             System.exit(0);
         }
