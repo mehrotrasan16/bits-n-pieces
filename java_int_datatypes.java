@@ -21,10 +21,10 @@ class Solution{
             {
                 long x=sc.nextLong();
                 System.out.println(x+" can be fitted in:");
-                if(x>=-128 && x<=127)System.out.println("* byte");
-                if(x >= (-1 * java.lang.Math.pow(2,16)) && x <= (java.lang.Math.pow(2,16)))System.out.println("* short");
-                if(x >= (-1 * java.lang.Math.pow(2,32)) && x <= (java.lang.Math.pow(2,32)))System.out.println("* int");
-                if(x >= (-1 * java.lang.Math.pow(2,64)) && x <= (java.lang.Math.pow(2,64)))System.out.println("* long");
+                if(x >= -128 && x <= 127)System.out.println("* byte");
+                if(x >= (-1 * java.lang.Math.pow(2,16)/2) && x <= (java.lang.Math.pow(2,16)/2-1))System.out.println("* short");
+                if(x >= (-1 * java.lang.Math.pow(2,32)/2) && x <= (java.lang.Math.pow(2,32)/2-1))System.out.println("* int");
+                if(x >= (-1 * java.lang.Math.pow(2,64)/2) && x <= (java.lang.Math.pow(2,64)/2-1))System.out.println("* long");
                 
                 //Complete the code
             }
