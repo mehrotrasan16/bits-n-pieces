@@ -6,7 +6,6 @@ string_str = "PQRSTAEIOUMNOPaedfioghu"
 str1ing_str = string_str
 
 x = re.match("[A]",string_str)
-print(x)
 
 while(x is not None):
     print("Match found, vowel removal procedure")
@@ -17,6 +16,15 @@ while(x is not None):
 print(f'Result String is {str1ing_str}')
 
 #theoretically works but practically, the string fails to match after the slicing
+
+### code from stack overflow for above procedure using regexes
+### source: https://stackoverflow.com/questions/21581824/correct-code-to-remove-the-vowels-from-a-string-in-python
+import re
+
+def anti_vowel(s):
+    result = re.sub(r'[AEIOU]', '', s, flags=re.IGNORECASE)
+    return result
+
 ########################################################
 
 ##Shorter and simpler solution without libraries
