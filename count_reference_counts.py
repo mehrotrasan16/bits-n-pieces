@@ -33,7 +33,8 @@ print(d)
 
 import matplotlib.pyplot as plt
 
-plt.plot(list(d.keys()),list(d.values())) ## plot the reference and its counts
-
+#plt.plot(list(d.keys()),list(d.values())) ## plot the reference and its counts
+## todo: try a historgram
+plt.stem(list(d.keys()),list(d.values())) ## plot a stem plot of the reference and its counts
 plt.xticks(list(d.keys()))
 plt.show()
