@@ -6,7 +6,7 @@
 import os
 
 os.chdir("D:\\User\\tmp\\")         ## directory with the text of the paper
-f = open("Paper Test", mode='r+', encoding="utf8")  ## I just copied and pasted the text from a pdf into a text file
+f = open("Paper Test 2", mode='r+', encoding="utf8")  ## I just copied and pasted the text from a pdf into a text file
 f.seek(0)   ##reset file ptr location
 
 #init d
@@ -15,7 +15,7 @@ d = {}
 #d[0] = "Test Ref" 
 
 
-for num in range(1,31):     ## number of references in the paper
+for num in range(1,50):     ## number of references in the paper
     print(num)
     f.seek(0)       
     for line in f:          ## read the file line by line
