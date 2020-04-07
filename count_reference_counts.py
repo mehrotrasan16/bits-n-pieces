@@ -6,7 +6,7 @@
 import os
 
 os.chdir("D:\\User\\tmp\\")         ## directory with the text of the paper
-f = open("Paper Test 2", mode='r+', encoding="utf8")  ## I just copied and pasted the text from a pdf into a text file
+f = open("Paper Test 3", mode='r+', encoding="utf8")  ## I just copied and pasted the text from a pdf into a text file
 f.seek(0)   ##reset file ptr location
 
 #init d
